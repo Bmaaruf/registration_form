@@ -4,26 +4,17 @@
   box-sizing: border-box;
 }
 body {
-  font-family: sans-serif;
+  font-family: "Inter", sans-serif;
   background: #48125f;
-  /* background: linear-gradient(
-                90deg,
-                rgba(54, 58, 168, 1) 0%,
-                rgba(0, 0, 252, 0.55) 0%,
-                rgba(0, 212, 255, 0.82) 98%
-              ); */
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
   color: #5b616a;
   accent-color: #48125f;
-  /* padding: 152px; */
 }
 
 .container {
-  /* border: 3px solid; */
-  /* height: 32rem; */
   height: auto;
   padding: 24px 32px;
   background-color: #f7f7f7;
@@ -45,7 +36,8 @@ body {
 }
 .form-heading {
   color: #5b616a;
-  font-size: 20px;
+  font-size: 24px;
+  font-weight: 800;
   margin-bottom: 12px;
 }
 .form-about {
@@ -63,7 +55,10 @@ input {
   border: none;
   border-radius: 8px;
   font-size: 12px;
-  transition: 0.3ms;
+  transition: 0.3s;
+  box-shadow: 0px 0px 8px 0px rgba(72, 18, 95, 0.16);
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(72, 18, 95, 0.16);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(72, 18, 95, 0.16);
 }
 input::placeholder {
   color: #979797;
@@ -83,12 +78,16 @@ button {
   color: #fcf7f8;
   background-color: #48125f;
   border-radius: 8px;
-  transition: 0.4ms;
+  transition: 0.4s;
   border: none;
 }
 a {
   text-decoration: none;
   color: #275dad;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 .form-body label {
   color: #25283d;

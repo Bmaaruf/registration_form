@@ -5,9 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Registration Form</title>
     <link rel="stylesheet" href="form.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <form action="registeration.com" method="POST" novalidate>
+    <form action="https://registeration.com" method="POST" novalidate>
       <div class="container">
         <div class="main">
           <p class="accent">ACCOUNT SETUP</p>
@@ -38,12 +44,16 @@
               />
             </div>
             <div class="form-body">
-              <label for="password">password</label>
+              <label for="password">Password</label>
               <input name="password" type="password" id="password" />
             </div>
             <div class="form-body">
               <label for="confirm-password">Confirm password</label>
-              <input name="password" type="password" id="password" />
+              <input
+                name="confirm-password"
+                type="password"
+                id="confirm-password"
+              />
             </div>
             <div class="checkbox">
               <input
@@ -54,7 +64,7 @@
               />
               <label for="consent">
                 i agree to the
-                <a href="#">Terms and serivice</a> and
+                <a href="#">Terms of service</a> and
                 <a href="#">Privacy Policy</a></label
               >
             </div>
